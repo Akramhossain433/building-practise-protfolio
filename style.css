@@ -1,0 +1,219 @@
+/*header style*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: #FFF8F3;
+    max-width: 1600px;
+    height: 837px;
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile-pic {
+    width: 580px;
+    height: 670px;
+}
+
+.buton-1 {
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    background: #FD6E0A;
+    padding: 18px 35px;
+}
+
+.buton-2 {
+    border-radius: 5px;
+    color: #FD6E0A;
+    padding: 18px 35px;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+}
+
+/*nav style*/
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-title {
+    font-size: 45px;
+    font-weight: 800;
+    color: #181818;
+    padding-left: 226px;
+
+}
+
+.primary {
+    color: #FD6E0A;
+}
+
+.nav-icons {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav-icons li {
+    margin-right: 50px;
+}
+
+.nav-icons a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btn {
+    border-radius: 5px;
+    color: rgb(182, 116, 116);
+    background: #FD6E0A;
+    padding: 18px 35px;
+    border-style: none;
+
+}
+
+#hire-me {
+    color: white;
+}
+
+.myself {
+    padding-left: 226px;
+    width: 585px;
+}
+
+.myself h1 {
+
+    font-size: 85px;
+    font-weight: 700;
+}
+
+.myself h3 {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.myself p {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.myself button {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*section about*/
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+section {
+    margin-top: 130px;
+}
+
+.about {
+    background-color: #FFF8F3;
+    padding: 130px 155px;
+
+}
+
+.heading h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.heading p {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.about-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-about {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 400;
+}
+
+/*section 2*/
+.what-i-do {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.what-i-do h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.what-i-do p {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.icons-name div {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    width: 200px;
+    padding: 30px;
+}
+
+.icons-name {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*3rd section*/
+.summary>h1 {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.summary-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.education,
+.experience {
+    width: 555px;
+}
+
+.summary button {
+    align-items: center;
+}
+
+.education h1,
+.experience h1 {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
